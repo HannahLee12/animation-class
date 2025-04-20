@@ -9,7 +9,7 @@ body {
 }
 
 .title {
-  padding: 1rem;
+  padding: 2rem;
 }
 
 main {
@@ -25,5 +25,11 @@ main {
   background-color: #99546B;
   color: #3b3d3b;
   text-decoration: none;
+  transition: background-color 300ms 100ms ease-in-out, color 300ms 100ms ease-in-out, border-radius 300ms 100ms ease-in-out;
 
+  &:hover {
+    background-color:#3b3d3b;
+    color: #f5e0e7;
+    border-radius: 0.25rem;
+  }
 }
