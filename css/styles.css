@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.title {
+  padding: 1rem;
+}
+
+main {
+  height: 100vh;
+  width: 100vw;
+  background-color: #f5e0e7;
+  align-items: center;
+  justify-items: center;
+}
+
+.button-transitions {
+  padding: 1rem;
+  margin: 0;
+  background-color: #99546B;
+  color: #3b3d3b;
+  text-decoration: none;
+
+}
